@@ -1,0 +1,41 @@
+body {
+  background: rgb(66, 66, 66);
+  min-height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+}
+.red {
+  background: #f92f21;
+  margin-right: 5px;
+}
+.cyan {
+  background: #25ccf7;
+  margin-right: 5px;
+}
+.violet {
+  background: #6f5dc9;
+  margin-right: 5px;
+}
+.orange {
+  background: #ea7773;
+  margin-right: 5px;
+}
+.pink {
+  background: #f640c8;
+}
+
+.center {
+  min-width: 400px;
+  height: 400px;
+  background:white;
+  border-radius: 100%;
+  transition: 0.7s ease-in-out all;
+}
+.color {
+  width: 120px;
+  height: 30px;
+  border-radius: 5%;
+  margin-bottom: 30px;
+}
